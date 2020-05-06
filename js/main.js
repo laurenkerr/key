@@ -21,7 +21,7 @@ function preload() {
   spriteSheet = loadImage('img/CatSpriteSheet.png');
   spriteData = loadJSON('json/catsprite.json');
  
-  rm1_startText = loadImage('img/rm1_start.png');
+  rm1_startText = loadImage('img/game_start.png');
   rm2_startText = loadImage('img/rm2_start.png');
   
 //Audio
