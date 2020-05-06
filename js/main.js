@@ -32,10 +32,10 @@ function preload() {
   levelUp = loadSound('aud/levelUp.mp3');
   levelDown = loadSound('aud/levelDown.mp3');
   trumpet = loadSound('aud/trumpet.mp3');
+  music = loadSound('aud/gameMusic.mp3');
 }
 
 function setup() {
-  music = createAudio('aud/gameMusic.mp3');
   music.loop(); 
 
   createCanvas(1280, 720);
